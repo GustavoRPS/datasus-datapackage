@@ -46,7 +46,8 @@
 
 A finalidade do AIH (Sistema SIHSUS) é registrar todos os atendimentos provenientes de internações hospitalares que foram financiadas pelo SUS, e a partir deste processamento, gerar relatórios para que os gestores possam fazer os pagamentos dos estabelecimentos de saúde. Além disso, o nível Federal recebe mensalmente uma base de dados de todas as internações autorizadas (aprovadas ou não para pagamento) para que possam ser repassados às Secretarias de Saúde os valores de Produção de Média e Alta complexidade, além dos valores de [CNRAC](http://datasus.saude.gov.br/sistemas-e-aplicativos/regulacao/cnrac-central-nacional-de-regulacao-de-alta-complexidade), FAEC e de Hospitais Universitários – em suas variadas formas de contrato de gestão.
 
-#### Tipos de Dados
+
+#### Tabelas
 
 | Acrônimo | Título |
 |----------|--------|
@@ -65,11 +66,25 @@ A finalidade do AIH (Sistema SIHSUS) é registrar todos os atendimentos provenie
 
 O SIASUS recebe a transcrição de produção nos documentos BPA e APAC, faz consolidação, valida o pagamento contra parâmetros orçamentários estipulados pelo próprio gestor de saúde, antes de aprovar o pagamento – para isto utiliza-se do sistema FPO.  Mensalmente os gestores, além de gerar os valores devidos a sua rede de estabelecimentos, enviam ao DATASUS-RJ, uma base de dados contendo a totalidade dos procedimentos realizados em sua gestão.  Também mensalmente o DATASUS – RJ gera arquivos para tabulação contendo estes atendimentos. Complementando as informações do sistema SIHSUS, fornece ao SAS/DRAC os valores do Teto de Financiamento a serem repassados para os gestores.
 
+#### Tabelas
+
+| Acrônimo | Título |
+|----------|--------|
+| ABO | APAC Acompanhamento Pós Cirurgia Bariátrica - A Partir de Abr/2013 |
+| ACF | APAC Confeção de Fístula Arteriovenosa - A Partir de Jun/2014 |
+| AD  | APAC de Laudos Diversos - A Partir de Jan/2008 |
+| AM  | APAC de Medicamentos - A Partir de Jan/2008 |
+| AN  | APAC de Nefrologia - A Partir de Jan/2008 até Out/2014 |
+| AQ  | APAC de Quimioterapia - A Partir de Jan/2008 |
+| AR  | APAC de Radioterapia - A Partir de Jan/2008 |
+| ATD | APAC Tratamento Dialítico - A Partir de Jun/2014 |
+| PA  | Produção Ambulatorial - A Partir de Jul/1994 |
+| PS  | Psicossocial - A Partir de Jan/2013 |
+
 
 #### Links
 
 - [DATASUS > Serviços > Transferência/Download de Arquivos](http://www2.datasus.gov.br/DATASUS/index.php?area=0901&item=1&acao=22&pad=31655)
-
 ----
 
 ### SIM
